@@ -33,15 +33,12 @@ int _atoi(char *s)
 			if (d % 2)
 
 			digit = -digit;
-		
 			n = n * 10 + digit;
-
 			f = 1;
-		
+
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 
 				break;
-
 			f = 0;
 
 		}
@@ -72,7 +69,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 
 		return (1);
-		
+
 	}
 	num1 = _atoi(argv[1]);
 
